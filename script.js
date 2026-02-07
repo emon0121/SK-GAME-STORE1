@@ -50,3 +50,33 @@ if (window.Telegram && Telegram.WebApp) {
     localStorage.setItem("tgUser", JSON.stringify(user));
   }
 }
+// 🎈 Balloon Animation on Load
+document.addEventListener("DOMContentLoaded", () => {
+  const container = document.getElementById("balloon-container");
+
+  const colors = [
+    "#ff4d4d",
+    "#ffd633",
+    "#4dff88",
+    "#4da6ff",
+    "#d966ff"
+  ];
+
+  for (let i = 0; i < 20; i++) {
+    const balloon = document.createElement("div");
+    balloon.className = "balloon";
+
+    balloon.style.left = Math.random() * 100 + "vw";
+    balloon.style.background =
+      colors[Math.floor(Math.random() * colors.length)];
+    balloon.style.animationDuration =
+      4 + Math.random() * 3 + "s";
+
+    container.appendChild(balloon);
+
+    // Remove balloon after animation
+    setTimeout(() => {
+      balloon.remove();
+    }, 7000);
+  }
+});
