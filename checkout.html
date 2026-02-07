@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Checkout</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{
+      font-family: Arial;
+      padding: 15px;
+    }
+    input{
+      width:100%;
+      padding:10px;
+      margin-top:10px;
+      margin-bottom:10px;
+    }
+    button{
+      width:100%;
+      padding:12px;
+      background:#0088cc;
+      color:white;
+      border:none;
+      font-size:16px;
+    }
+  </style>
+</head>
+<body>
+
+<h3>Manual Payment</h3>
+
+<p><b>bKash:</b> 01978085767</p>
+<p><b>Nagad:</b> 01978085767</p>
+<p><b>Binance:</b> YOUR_BINANCE_ID</p>
+
+<input id="trx" placeholder="Transaction ID ржжрж┐ржи">
+
+<button onclick="sendOrder()">Confirm Order</button>
+
+<script>
+function sendOrder(){
+
+  const product = JSON.parse(localStorage.getItem("product"));
+  const user = JSON.parse(localStorage.getItem("tgUser"));
+  const trx = document.getElementById("trx").value;
+
+  if(!trx){
+    alert("Transaction ID ржжрж┐ржи");
+    return;
+  }
+
+  // ЁЯФ┤ ржПржЦрж╛ржирзЗ ржЖржкржирж╛рж░ BOT TOKEN ржмрж╕рж╛ржмрзЗржи
+  const BOT_TOKEN = "8227395953:AAERSlRHHzwgxjhRwZjpVle6SAnCFzz6NW4";
+
+  // ЁЯФ┤ ржПржЦрж╛ржирзЗ ржЖржкржирж╛рж░ Telegram ID ржмрж╕рж╛ржмрзЗржи
+  const CHAT_ID = "5373263577";
+
+  const message =
+`ЁЯЫТ NEW ORDER
+
+ЁЯСд User: @${user?.username || "N/A"}
+ЁЯЖФ ID: ${user?.id || "N/A"}
+
+ЁЯОо Product: ${product.name}
+ЁЯТ░ Price: ${product.price}
+
+ЁЯТ│ Payment: Manual
+ЁЯФБ TX: ${trx}`;
+
+  fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+    method: "POST",
+    headers: {"Content-Type":"application/json"},
+    body: JSON.stringify({
+      chat_id: CHAT_ID,
+      text: message
+    })
+  })
+  .then(()=>{
+    alert("Order sent! Admin will confirm.");
+    localStorage.clear();
+  })
+  .catch(()=>{
+    alert("Order failed");
+  });
+}
+</script>
+
+</body>
+</html>
