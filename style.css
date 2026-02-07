@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  padding: 15px;
+  background: #020617;
+  text-align: center;
+}
+
+#product-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.product {
+  background: #020617;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  background: #22c55e;
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+  width: 100%;
+}
