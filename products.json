@@ -1,16 +1,16 @@
 [
   {
     "id": 1,
-    "name": "Premium Game Script",
-    "price": "৳500",
+    "name": "Goblins Miner",
+    "price": "৳3000",
     "category": "Premium",
-    "image": "assets/images/script1.png"
+    "image": "assets/images/goblin.png"
   },
   {
     "id": 2,
-    "name": "1000 Game Coins",
-    "price": "৳300",
+    "name": "Dice Dreams",
+    "price": "৳2500",
     "category": "Trending",
-    "image": "assets/images/coins.png"
+    "image": "assets/images/dice.png"
   }
 ]
