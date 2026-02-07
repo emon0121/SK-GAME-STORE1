@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="product">
+  <img id="img">
+  <h3 id="name"></h3>
+  <p id="price"></p>
+
+  <select id="pay">
+    <option>bKash</option>
+    <option>Nagad</option>
+    <option>Binance</option>
+  </select>
+
+  <button onclick="buy()">Buy Now</button>
+</div>
+
+<script>
+const p = JSON.parse(localStorage.getItem("product"));
+document.getElementById("img").src = p.image;
+document.getElementById("name").innerText = p.name;
+document.getElementById("price").innerText = p.price;
+
+function buy(){
+  localStorage.setItem("payment", document.getElementById("pay").value);
+  location.href = "checkout.html";
+}
+</script>
+
+</body>
+</html>
