@@ -13,4 +13,11 @@
     "category": "Trending",
     "image": "assets/images/dice2.png"
   }
+{
+    "id": 3,
+    "name": "Wishing Well 3000M Upgrades",
+    "price": "৳2000",
+    "category": "Trending",
+    "image": "assets/images/well.png"
+  }
 ]
