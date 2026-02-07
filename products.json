@@ -4,13 +4,13 @@
     "name": "Goblins Miner",
     "price": "৳3000",
     "category": "Premium",
-    "image": "assets/images/goblin.png"
+    "image": "assets/images/goblin1.png"
   },
   {
     "id": 2,
     "name": "Dice Dreams",
     "price": "৳2500",
     "category": "Trending",
-    "image": "assets/images/dice.png"
+    "image": "assets/images/dice2.png"
   }
 ]
