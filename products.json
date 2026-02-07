@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Premium Game Script",
+    "price": 500,
+    "image": "assets/images/script.png",
+    "category": "Premium"
+  },
+  {
+    "id": 2,
+    "name": "1000 Game Coins",
+    "price": 300,
+    "image": "assets/images/coins.png",
+    "category": "Trending"
+  }
+]
