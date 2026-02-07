@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Premium Game Script",
+    "price": "৳500",
+    "category": "Premium",
+    "image": "assets/images/script1.png"
+  },
+  {
+    "id": 2,
+    "name": "1000 Game Coins",
+    "price": "৳300",
+    "category": "Trending",
+    "image": "assets/images/coins.png"
+  }
+]
