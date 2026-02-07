@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SK GAME STORE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- APP BAR -->
+<div class="header">
+  SK GAME STORE
+</div>
+
+<!-- SEARCH -->
+<input class="search" placeholder="Search games or scripts...">
+
+<!-- SLIDER -->
+<div class="slider">
+  <div class="slides">
+    <img src="assets/images/banner1.jpg">
+    <img src="assets/images/banner2.jpg">
+    <img src="assets/images/banner3.jpg">
+  </div>
+</div>
+
+<!-- CATEGORIES -->
+<div class="categories">
+  <button onclick="filterCategory('Premium')">Premium</button>
+  <button onclick="filterCategory('Bundles')">Bundles</button>
+  <button onclick="filterCategory('Trending')">Trending</button>
+  <button onclick="filterCategory('All')">More</button>
+</div>
+
+<h3 class="section-title">Games & Scripts</h3>
+
+<div id="productList" class="products"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
