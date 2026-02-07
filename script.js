@@ -37,3 +37,16 @@ function filterCategory(cat){
     showProducts(allProducts.filter(p => p.category === cat));
   }
 }
+// ======================
+// LEVEL 5 - Telegram User Info Save
+// ======================
+
+if (window.Telegram && Telegram.WebApp) {
+  Telegram.WebApp.ready();
+
+  const user = Telegram.WebApp.initDataUnsafe.user;
+
+  if (user) {
+    localStorage.setItem("tgUser", JSON.stringify(user));
+  }
+}
