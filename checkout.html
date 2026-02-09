@@ -3,6 +3,7 @@
 <head>
   <title>Checkout</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <style>
     body{
       font-family: Arial;
@@ -30,9 +31,9 @@
 
 <p><b>bKash:</b> 01978085767</p>
 <p><b>Nagad:</b> 01978085767</p>
-<p><b>Binance:</b> YOUR_BINANCE_ID</p>
+<p><b>Binance:</b> 994160388</p>
 
-<input id="trx" placeholder="Transaction ID ржжрж┐ржи">
+<input id="trx" placeholder="Transaction ID">
 
 <button onclick="sendOrder()">Confirm Order</button>
 
@@ -40,31 +41,33 @@
 function sendOrder(){
 
   const product = JSON.parse(localStorage.getItem("product"));
-  const user = JSON.parse(localStorage.getItem("tgUser"));
+  const user = JSON.parse(localStorage.getItem("tgUser")) || {};
   const trx = document.getElementById("trx").value;
 
-  if(!trx){
-    alert("Transaction ID ржжрж┐ржи");
+  if(!product){
+    alert("No product selected");
     return;
   }
 
-  // ЁЯФ┤ ржПржЦрж╛ржирзЗ ржЖржкржирж╛рж░ BOT TOKEN ржмрж╕рж╛ржмрзЗржи
-  const BOT_TOKEN = "8076358863:AAHrlZx2gr1BLCqKSh7Xbk_bqSCS4Zc35pI";
+  if(!trx){
+    alert("Enter Transaction ID");
+    return;
+  }
 
-  // ЁЯФ┤ ржПржЦрж╛ржирзЗ ржЖржкржирж╛рж░ Telegram ID ржмрж╕рж╛ржмрзЗржи
+  const BOT_TOKEN = "8076358863:AAHrlZx2gr1BLCqKSh7Xbk_bqSCS4Zc35pI";
   const CHAT_ID = "5373263577";
 
   const message =
-`ЁЯЫТ NEW ORDER
+`NEW ORDER
 
-ЁЯСд User: @${user?.username || "N/A"}
-ЁЯЖФ ID: ${user?.id || "N/A"}
+User: @${user.username || "N/A"}
+User ID: ${user.id || "N/A"}
 
-ЁЯОо Product: ${product.name}
-ЁЯТ░ Price: ${product.price}
+Product: ${product.name}
+Price: ${product.price}
 
-ЁЯТ│ Payment: Manual
-ЁЯФБ TX: ${trx}`;
+Payment: Manual
+TX: ${trx}`;
 
   fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
     method: "POST",
@@ -75,11 +78,11 @@ function sendOrder(){
     })
   })
   .then(()=>{
-    alert("Order sent! Admin will confirm.");
-    localStorage.clear();
+    alert("Order sent successfully!");
+    localStorage.removeItem("product");
   })
   .catch(()=>{
-    alert("Order failed");
+    alert("Failed to send order");
   });
 }
 </script>
