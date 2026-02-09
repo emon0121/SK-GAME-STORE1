@@ -19,82 +19,82 @@
     "price": "৳2000",
     "category": "Trending",
     "image": "assets/images/well.png"
-  }
+  },
   {
     "id": 4,
     "name": "Forest Cleaner",
     "price": "৳2000",
     "category": "Trending",
     "image": "assets/images/forest.png"
-  }
+  },
   {
     "id": 5,
     "name": "Magnet Miner",
     "price": "৳3000",
     "category": "Premium",
     "image": "assets/images/miner.png"
-  }
+  },
   {
     "id": 6,
     "name": "Magnet Miner Winter Edition",
     "price": "৳2500",
     "category": "Premium",
     "image": "assets/images/edition.png"
-  }
+  },
   {
     "id": 7,
     "name": "River Dash",
     "price": "৳2000",
     "category": "Trending",
     "image": "assets/images/river.png"
-  }
+  },
   {
     "id": 8,
     "name": "Wild Fish",
     "price": "৳2500",
     "category": "Trending",
     "image": "assets/images/wild.png"
-  }
+  },
   {
     "id": 9,
     "name": "Freezer Frenzy",
     "price": "৳2500",
     "category": "Premium",
     "image": "assets/images/frenzy.png"
-  }
+  },
   {
     "id": 10,
     "name": "River Rush",
     "price": "৳2000",
     "category": "Trending",
     "image": "assets/images/rush.png"
-  }
+  },
   {
     "id": 11,
     "name": "Chaos Cruiser",
     "price": "৳1500",
     "category": "Trending",
     "image": "assets/images/chaos.png"
-  }
+  },
   {
     "id": 12,
     "name": "Scuba Diver",
     "price": "৳1500",
     "category": "Trending",
     "image": "assets/images/diver.png"
-  }
+  },
   {
     "id": 13,
     "name": "The Parachute",
     "price": "৳2000",
     "category": "Premium",
     "image": "assets/images/the.png"
-  }
+  },
   {
     "id": 14,
     "name": "Egg Catcher",
     "price": "৳1000",
     "category": "Trending",
-    "image": "assets/images/the.egg"
+    "image": "assets/images/the.png"
   }
 ]
