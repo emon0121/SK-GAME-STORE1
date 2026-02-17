@@ -118,6 +118,15 @@ body {
   background: #555;
 }
 
+.sold{
+  font-size:12px;
+  background:#ff4757;
+  color:white;
+  padding:4px 8px;
+  border-radius:8px;
+  display:inline-block;
+  margin-top:5px;
+}
 @keyframes floatUp {
   from {
     transform: translateY(0);
