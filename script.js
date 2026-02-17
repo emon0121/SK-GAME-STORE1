@@ -16,10 +16,12 @@ function showProducts(list){
     card.className = "product";
 
     card.innerHTML = `
-      <img src="${p.image}">
-      <h4>${p.name}</h4>
-      <p>${p.price}</p>
-    `;
+  <img src="${p.image}">
+  <h4>${p.name}</h4>
+  <p>${p.price}</p>
+  <div class="sold">🔥 ${p.sold || 0} sold</div>
+`;
+
 
     card.onclick = () => {
       localStorage.setItem("product", JSON.stringify(p));
