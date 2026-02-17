@@ -4,7 +4,7 @@
   "name": "Goblins Miner",
   "price": "৳5000",
   "category": "Premium",
-  "sold": 27,
+  "sold": 80,
   "image": "assets/images/goblin1.png"
   },
   {
@@ -20,6 +20,7 @@
     "name": "Wishing Well 3000M Upgrades",
     "price": "৳2000",
     "category": "Trending",
+    "sold": 35,
     "image": "assets/images/well.png"
   },
   {
@@ -27,6 +28,7 @@
     "name": "Forest Cleaner",
     "price": "৳2000",
     "category": "Trending",
+    "sold": 32,
     "image": "assets/images/forest.png"
   },
   {
@@ -34,6 +36,7 @@
     "name": "Magnet Miner",
     "price": "৳3000",
     "category": "Premium",
+    "sold": 40,
     "image": "assets/images/miner.png"
   },
   {
@@ -41,6 +44,7 @@
     "name": "Magnet Miner Winter Edition",
     "price": "৳2500",
     "category": "Premium",
+    "sold": 45,
     "image": "assets/images/edition.png"
   },
   {
@@ -48,6 +52,7 @@
     "name": "River Dash",
     "price": "৳2000",
     "category": "Trending",
+    "sold": 25,
     "image": "assets/images/river.png"
   },
   {
@@ -55,6 +60,7 @@
     "name": "Wild Fish",
     "price": "৳2500",
     "category": "Trending",
+    "sold": 29,
     "image": "assets/images/wild.png"
   },
   {
@@ -62,6 +68,7 @@
     "name": "Freezer Frenzy",
     "price": "৳2500",
     "category": "Premium",
+    "sold": 36,
     "image": "assets/images/frenzy.png"
   },
   {
@@ -69,6 +76,7 @@
     "name": "River Rush",
     "price": "৳2000",
     "category": "Trending",
+    "sold": 56,
     "image": "assets/images/rush.png"
   },
   {
@@ -76,6 +84,7 @@
     "name": "Chaos Cruiser",
     "price": "৳1500",
     "category": "Trending",
+    "sold": 43,
     "image": "assets/images/chaos.png"
   },
   {
@@ -83,6 +92,7 @@
     "name": "Scuba Diver",
     "price": "৳1500",
     "category": "Trending",
+    "sold": 38,
     "image": "assets/images/diver.png"
   },
   {
@@ -90,6 +100,7 @@
     "name": "The Parachute",
     "price": "৳2000",
     "category": "Premium",
+    "sold": 44,
     "image": "assets/images/the.png"
   },
   {
@@ -97,6 +108,7 @@
     "name": "Egg Catcher",
     "price": "৳1000",
     "category": "Trending",
-    "image": "assets/images/the.png"
+    "sold": 70,
+    "image": "assets/images/egg.png"
   }
 ]
