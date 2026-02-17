@@ -110,5 +110,13 @@
     "category": "Trending",
     "sold": 70,
     "image": "assets/images/egg.png"
+  },
+  {
+    "id": 15,
+    "name": "USA FREECASH ACCOUNT VERIFIED",
+    "price": "৳7000",
+    "category": "Premium",
+    "sold": 5,
+    "image": "assets/images/usa.png"
   }
 ]
