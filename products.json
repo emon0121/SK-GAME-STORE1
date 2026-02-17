@@ -1,10 +1,11 @@
 [
   {
     "id": 1,
-    "name": "Goblins Miner",
-    "price": "৳5000",
-    "category": "Premium",
-    "image": "assets/images/goblin1.png"
+  "name": "Goblins Miner",
+  "price": "৳5000",
+  "category": "Premium",
+  "sold": 27,
+  "image": "assets/images/goblin1.png"
   },
   {
     "id": 2,
