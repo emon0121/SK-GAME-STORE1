@@ -4,7 +4,7 @@
   "name": "Goblins Miner",
   "price": "৳5000",
   "category": "Premium",
-  "sold": 80,
+  "sold": 90,
   "image": "assets/images/goblin1.png"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Dice Dreams Unlimited Coin",
     "price": "৳3000",
     "category": "Trending",
-    "sold": 12,
+    "sold": 21,
     "image": "assets/images/dice2.png"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Wishing Well 3000M Upgrades",
     "price": "৳2000",
     "category": "Trending",
-    "sold": 35,
+    "sold": 48,
     "image": "assets/images/well.png"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Forest Cleaner",
     "price": "৳2000",
     "category": "Trending",
-    "sold": 32,
+    "sold": 39,
     "image": "assets/images/forest.png"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Magnet Miner",
     "price": "৳3000",
     "category": "Premium",
-    "sold": 40,
+    "sold": 50,
     "image": "assets/images/miner.png"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Magnet Miner Winter Edition",
     "price": "৳2500",
     "category": "Premium",
-    "sold": 45,
+    "sold": 55,
     "image": "assets/images/edition.png"
   },
   {
@@ -52,7 +52,7 @@
     "name": "River Dash",
     "price": "৳2000",
     "category": "Trending",
-    "sold": 25,
+    "sold": 35,
     "image": "assets/images/river.png"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Wild Fish",
     "price": "৳2500",
     "category": "Trending",
-    "sold": 29,
+    "sold": 33,
     "image": "assets/images/wild.png"
   },
   {
@@ -68,7 +68,7 @@
     "name": "Freezer Frenzy",
     "price": "৳2500",
     "category": "Premium",
-    "sold": 36,
+    "sold": 47,
     "image": "assets/images/frenzy.png"
   },
   {
@@ -76,7 +76,7 @@
     "name": "River Rush",
     "price": "৳2000",
     "category": "Trending",
-    "sold": 56,
+    "sold": 63,
     "image": "assets/images/rush.png"
   },
   {
@@ -84,7 +84,7 @@
     "name": "Chaos Cruiser",
     "price": "৳1500",
     "category": "Trending",
-    "sold": 43,
+    "sold": 63,
     "image": "assets/images/chaos.png"
   },
   {
@@ -92,7 +92,7 @@
     "name": "Scuba Diver",
     "price": "৳1500",
     "category": "Trending",
-    "sold": 38,
+    "sold": 57,
     "image": "assets/images/diver.png"
   },
   {
@@ -100,7 +100,7 @@
     "name": "The Parachute",
     "price": "৳2000",
     "category": "Premium",
-    "sold": 44,
+    "sold": 55,
     "image": "assets/images/the.png"
   },
   {
@@ -108,15 +108,23 @@
     "name": "Egg Catcher",
     "price": "৳1000",
     "category": "Trending",
-    "sold": 70,
+    "sold": 80,
     "image": "assets/images/egg.png"
   },
   {
     "id": 15,
-    "name": "USA FREECASH ACCOUNT VERIFIED",
-    "price": "৳7000",
+    "name": "USA Driving Licences",
+    "price": "৳5500",
     "category": "Premium",
-    "sold": 5,
+    "sold": 9,
     "image": "assets/images/usa.png"
   }
+  {
+    "id": 16,
+    "name": "USA FREECASH VERIFIED",
+    "price": "৳7500",
+    "category": "Premium",
+    "sold": 3,
+    "image": "assets/images/verified.png"
+  },
 ]
