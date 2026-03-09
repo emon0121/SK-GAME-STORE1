@@ -116,7 +116,7 @@
     "name": "USA Driving Licences",
     "price": "৳5500",
     "category": "Premium",
-    "sold": 9,
+    "sold": 21,
     "image": "assets/images/usa.png"
   },
   {
@@ -124,7 +124,7 @@
     "name": "USA FREECASH VERIFIED",
     "price": "৳7500",
     "category": "Premium",
-    "sold": 3,
+    "sold": 13,
     "image": "assets/images/verified.png"
   }
 ]
